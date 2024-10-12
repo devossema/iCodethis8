@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+}
+body .container{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border: 6px rgb(169, 169, 201) solid;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgb(169, 169, 201);
+}
+.container input::placeholder {
+    color: (177, 196, 212);
+    font-size: 13px;
+    padding-left: 10px;
+}
+.container h1{
+    font-size: 22px;
+    margin: 0px 60px 0px 20px;
+    padding: 30px 70px 0px 100px;
+}
+.container p{
+    padding: 0px 40px;
+    margin: 20px;
+    font-size: 14px;
+}
+.container .facebook button{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(69, 69, 139);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+}
+.container .or p{
+    font-weight: 700;
+    color: grey;
+}
+.container .labels #name, #lastname{
+    height: 40px;
+    width: 115px;
+    border: none;
+    border: 1px rgb(69, 69, 139) solid;
+    border-radius: 3px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.container .email #email{
+    margin-top: 10px;
+    border: none;
+    border: 1px rgb(69, 69, 139) solid;
+    width: 240px;
+    height: 40px;
+    border-radius: 3px
+}
+.container .password #password{
+    margin-top: 10px;
+    border: none;
+    border: 1px rgb(69, 69, 139) solid;
+    width: 240px;
+    height: 40px;
+    border-radius: 3px
+}
+.container .button button{
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(47, 47, 71);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+}
+.container .by p{
+    color: rgb(47, 47, 71);
+    font-size: 10px;
+    padding: 0 90px;
+}
+.container .labels :placeholder{
+    padding: 30px;
+}
